@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://LucyPennington.github.io/test/annotations/929fc930e69113d172ff69b36512ff40.json" ],
+  "@id" : "https://LucyPennington.github.io/test/annotations/collection.json",
+  "label" : "All annotations loaded in LucyPennington/test project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
