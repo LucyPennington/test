@@ -1,0 +1,117 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://LucyPennington.github.io/test/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Notebook 32",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Sir Charles Lyell"
+  } ],
+  "description" : [ {
+    "@value" : "First 3 pages of Sir Charles Lyell's notebook no.32",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "University of Edinburgh",
+  "sequences" : [ {
+    "@id" : "http://1441c503-4239-4fa3-8c81-9eb0ce1fc209",
+    "@type" : "sc:Sequence",
+    "viewingDirection" : "left-to-right",
+    "viewingHint" : "paged",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://a9e8fe71-e98a-4146-bfae-151edeaa9660",
+      "@type" : "sc:Canvas",
+      "label" : "cover",
+      "height" : 1536,
+      "width" : 1040,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0b36f857-697f-4b6d-a5ec-eeabb1599966",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/b32-p1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/b32-p1",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1536,
+          "width" : 1040
+        },
+        "on" : "http://a9e8fe71-e98a-4146-bfae-151edeaa9660"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://d6c65ac7-c8a9-4a86-8418-7bde516a8d99",
+      "@type" : "sc:Canvas",
+      "label" : "p1",
+      "height" : 1536,
+      "width" : 1019,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://10b6e532-0211-4575-a84c-4ca32969813c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/b32-p2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/b32-p2",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1536,
+          "width" : 1019
+        },
+        "on" : "http://d6c65ac7-c8a9-4a86-8418-7bde516a8d99"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://143a600e-3030-41fb-9be0-7fa5b72281af",
+      "@type" : "sc:Canvas",
+      "label" : "p2",
+      "height" : 1536,
+      "width" : 1031,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a2c3c322-4aba-48e5-8387-11b65d520cdb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/b32-p003/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/b32-p003",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1536,
+          "width" : 1031
+        },
+        "on" : "http://143a600e-3030-41fb-9be0-7fa5b72281af"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://a9e8fe71-e98a-4146-bfae-151edeaa9660" ]
+  } ]
+}
