@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "No.32",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>No.32</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/27557531",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-10-28T09:41:02",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1666950062140",
+    "dcterms:modified" : "2022-10-28T09:41:02",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://LucyPennington.github.io/test/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=68,69,161,69"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M228.89373,137.63636h-80.61844v0h-80.61844v-34.40077v-34.40077h80.61844h80.61844v34.40077z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_c2d03bbf-7fba-4c86-96f8-4e91c83bc4ae\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://d6c65ac7-c8a9-4a86-8418-7bde516a8d99"
+    } ]
+  } ],
+  "@id" : "https://LucyPennington.github.io/test/annotations/929fc930e69113d172ff69b36512ff40.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
