@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://LucyPennington.github.io/test/manifests/manifest2.json",
     "label" : "Notebook 32"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://LucyPennington.github.io/test/manifests/244_manifest_sorted.json",
+    "label" : "Notebook No.244"
   } ]
 }
